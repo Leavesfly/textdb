@@ -1,0 +1,12 @@
+#if the line is start with '#', it will be treat as comment
+#the columns will be separated by '$_$'
+#The first available line should give the columns' sequence, which is start with 'ColumnSeq'.
+#For example:  ColumnSeq: id$_$name$_$address
+#if the table have primary key, it must be put in the first column
+#Start from second available line, all each line can store one record.
+
+#Column Sequence
+ColumnSeq: id$_$name$_$gender$_$mobile$_$email$_$address$_$family_id
+
+#content start
+
